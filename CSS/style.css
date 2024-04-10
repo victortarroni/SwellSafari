@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  width: 430px;
+  position: relative;
+  width: auto;
+  background: #fafafa;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #607081;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}

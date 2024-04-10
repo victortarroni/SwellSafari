@@ -1,0 +1,26 @@
+header {
+  width: auto;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #00d1c7;
+}
+
+#header-logo {
+  width: 42px;
+  height: 42px;
+  background: url(/images/headerImg.img/SSheaderLogo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#search-menu {
+  width: 42px;
+  height: 42px;
+  background: url(/images/headerImg.img/search.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
