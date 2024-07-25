@@ -1,0 +1,182 @@
+
+thead {
+  margin-top: 43px;
+}
+
+.head-timer{
+font-size: 45px;
+color: #007EB0 !important;
+
+}
+
+/* table wave entries */
+.six-wave {
+background-image: url(/images/icons/wave.png);
+background-position: center;
+background-size: 30%;
+background-repeat: no-repeat;
+height: 143px;
+width: 143px;
+border-left: none;
+border-right: none;
+background-color: azure;
+}
+.twelve-wave {
+background-image: url(/images/icons/wave.png);
+background-position: center;
+background-size: 30%;
+background-repeat: no-repeat;
+height: 143px;
+width: 143px;
+border-left: none;
+border-right: none;
+}
+.three-wave {
+background-image: url(/images/icons/wave.png);
+background-position: center;
+background-size: 30%;
+background-repeat: no-repeat;
+height: 143px;
+width: 143px;
+border-left: none;
+border-right: none;
+}
+.eighteen-wave {
+background-image: url(/images/icons/wave.png);
+background-position: center;
+background-size: 30%;
+background-repeat: no-repeat;
+height: 143px;
+width: 143px;
+border-left: none;
+border-right: none;
+}
+
+/* table tide entries */
+
+.six-tide {
+  background-image: url(/images/icons/tide.png);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 143px;
+  width: 143px;
+  border-left: none;
+  border-right: none;
+  }
+  .twelve-tide {
+  background-image: url(/images/icons/tide.png);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 143px;
+  width: 143px;
+  border-left: none;
+  border-right: none;
+  }
+  .three-tide {
+  background-image: url(/images/icons/tide.png);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 143px;
+  width: 143px;
+  border-left: none;
+  border-right: none;
+  }
+  .eighteen-tide {
+  background-image: url(/images/icons/tide.png);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  height: 143px;
+  width: 143px;
+  border-left: none;
+  border-right: none;
+  }
+
+  /* table wind entries */
+
+  .six-wind {
+    background-image: url(/images/icons/wind.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    height: 143px;
+    width: 143px;
+    border-left: none;
+    border-right: none;
+    }
+    .twelve-wind {
+    background-image: url(/images/icons/wind.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    height: 143px;
+    width: 143px;
+    border-left: none;
+    border-right: none;
+    }
+    .three-wind {
+    background-image: url(/images/icons/wind.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    height: 143px;
+    width: 143px;
+    border-left: none;
+    border-right: none;
+    }
+    .eighteen-wind {
+    background-image: url(/images/icons/wind.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    height: 143px;
+    width: 143px;
+    border-left: none;
+    border-right: none;
+    }
+
+    /* table temp entries */
+
+    .six-temp {
+      background-image: url(/images/icons/temp.png);
+      background-position: center;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      height: 143px;
+      width: 143px;
+      border-left: none;
+      border-right: none;
+      }
+      .twelve-temp {
+      background-image: url(/images/icons/temp.png);
+      background-position: center;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      height: 143px;
+      width: 143px;
+      border-left: none;
+      border-right: none;
+      }
+      .three-temp {
+      background-image: url(/images/icons/temp.png);
+      background-position: center;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      height: 143px;
+      width: 143px;
+      border-left: none;
+      border-right: none;
+      }
+      .eighteen-temp {
+      background-image: url(/images/icons/temp.png);
+      background-position: center;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      height: 143px;
+      width: 143px;
+      border-left: none;
+      border-right: none;
+      }
