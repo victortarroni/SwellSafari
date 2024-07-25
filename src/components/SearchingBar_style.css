@@ -1,0 +1,15 @@
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.searching-display {
+background-color: #10ABCA;
+color: #ffffff;
+width: 100px;
+border-radius: 10px;
+margin: 0 5px;
+}

@@ -1,0 +1,13 @@
+
+#Card-container {
+height: 221px;
+width: 398px;
+display: flex;
+border: 1px solid black;
+flex-direction: column;
+background: url(/images/BeachesImages/Croyde-Bay.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 30px;
+};
