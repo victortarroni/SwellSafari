@@ -1,5 +1,7 @@
 import './UpperCard_style.css';
 import './SearchBar';
+import './api'
+import getWeatherData from './api';
 
 // preciso ter acesso ao nome da praia e a latitude e longitude da mesma como a timezone
 // devo importar da searchBar para ter acesso a praia
@@ -7,25 +9,7 @@ import './SearchBar';
 const UpperCard = () => {
   // const timezone = I have to figure it out how to take it 
   // const latitudeandlongitude = I have to figure it out how to take it
-
-  async function weatherChaser() {
-
-    try{
-
-      const request = await fetch(`api.meteomatics.com/${timezone}/t_2m:C/${latitudeandlongitude}/json`);
-      const filteredRequest = request.json();
-
-      // // const wave
-      // // const temperature
-      // // const wind
-      // // const weather condition
-
-    } catch(error) {
-      console.error('Error fetching data:', error);
-    }
-    
-
-  }
+  getWeatherData();
 
 
     return (
