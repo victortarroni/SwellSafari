@@ -10,6 +10,8 @@ const daysInMonth = new Date(
   0
 ).getDate();
 
+
+// Retrieves the current day and the name of the current weekday.
 const getCurrentDayInfo = () => {
   const today = new Date();
   const day = today.getDate();
@@ -20,18 +22,32 @@ const getCurrentDayInfo = () => {
   return { day, dayOfWeek };
 };
 
+
+/* 
+currentDay: Stores today's day and weekday.
+startIndex: Keeps track of which day should be the start of the visible days. Initialized to currentDay.day - 1 because days are 1-indexed, but arrays are 0-indexed.
+visibleDays: Stores the list of days to display.
+touchStartX and touchEndX: Track touch movements for swipe gestures.
+ */
 export default function Calendar() {
   const [currentDay] = useState(getCurrentDayInfo());
   const [startIndex, setStartIndex] = useState(currentDay.day - 1);
   const [visibleDays, setVisibleDays] = useState([]);
-
   const [touchStartX, setTouchStartX] = useState(0);
   const [touchEndX, setTouchEndX] = useState(0);
 
+  // Updates visibleDays whenever startIndex changes.//
+  // getVisibleDays generates the list of days to show, starting from startIndex. //
+  
   useEffect(() => {
     const days = Array.from({ length: daysInMonth }, (_, i) => i + 1);
     setVisibleDays(getVisibleDays(days, startIndex));
   }, [startIndex]);
+
+/*
+Generates an array of 6 days to display, starting from startIndex.
+Uses modulo (% daysInMonth) to handle wrapping around to the beginning of the month. 
+*/
 
   const getVisibleDays = (days, startIndex) => {
     let visibleDaysArray = [];
